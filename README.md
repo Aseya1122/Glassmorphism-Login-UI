@@ -25,14 +25,14 @@ This project focuses on clean UI, smooth animations, and glowing effects to crea
 
 ## 🚀 Live Demo
 
-👉 [https://aseya1122.github.io/Glassmorphism-Login-UI/]Live Link
+👉 [https://aseya1122.github.io/Glassmorphism-Login-UI/] Live Link
 
 ---
 
 ## 📸 Preview
 
-![Preview](
-Preview. (2).gif)
+[Preview]
+(Preview. (2).gif)
 
 ---
 
