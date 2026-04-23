@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #2d444f, rgb(32, 63, 59), hsl(168, 28%, 22%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+/* Container */
+.container {
+  position: relative;
+}
+
+/* Glass Card */
+.card {
+  padding: 40px;
+  width: 300px;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  text-align: center;
+  color: white;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.circle {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle, #14a286, #10fbdf);
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: float 6s infinite ease-in-out;
+}
+
+.circle:nth-child(1) {
+  top: -190px;
+  left: -80px;
+}
+
+.circle:nth-child(2) {
+  bottom: -50px;
+  right: -50px;
+}
+
+.circle:nth-child(3) {
+  top: -50%;
+  left: 70%;
+}
+
+.circle:nth-child(4) {
+  top: 80%;
+  right: 80%;
+}
+
+.circle:nth-child(5) {
+  bottom: 90%;
+  left: 90%;
+}
+.circle:nth-child(6) {
+  bottom: -100%;
+  right: 40%;
+}
+
+/* Animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-30px); }
+  100% { transform: translateY(0px); }
+}
+
+body {
+  
+  background-size: 600% 600%;
+  animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #4facfe;
+  transform: scale(1.03);
+}
+
+
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #00f2fe;
+}
+button {
+  transition: 0.3s ease;
+}
